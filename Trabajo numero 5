@@ -1,0 +1,14 @@
+import { useState } from &quot;react&quot;;
+function App() {
+const [count, setCount]= useState(0);
+return (
+&lt;div&gt;
+&lt;p&gt; numero {count} &lt;/p&gt;
+&lt;button onClick={() =&gt; setCount(count +1)}&gt;
+Contar
+&lt;/button&gt;
+&lt;/div&gt;
+);
+}
+
+export default App;
